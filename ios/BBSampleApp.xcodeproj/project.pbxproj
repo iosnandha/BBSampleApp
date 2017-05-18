@@ -10,7 +10,8 @@
 		1E878A49FB20FF27B1399DB4 /* libPods-BBSampleAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 394F40E83C3154122CAC300B /* libPods-BBSampleAppUITests.a */; };
 		285C35365AE955F985F14F40 /* libPods-BBSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E38E9FC016C050A3A1830 /* libPods-BBSampleApp.a */; };
 		870494A0B28E39F579151BB6 /* libPods-BBSampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D3AAD010E799AE86019D5 /* libPods-BBSampleAppTests.a */; };
-		BE17320E1ECBA75200358B46 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = BE17320D1ECBA75200358B46 /* main.jsbundle */; };
+		BE08783D1ECDF3B30042980F /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = BE08783B1ECDF3B30042980F /* main.jsbundle */; };
+		BE08783E1ECDF3B30042980F /* main.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = BE08783C1ECDF3B30042980F /* main.jsbundle.meta */; };
 		BE3F3F271EBC97130036D348 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F3F261EBC97130036D348 /* RNViewController.m */; };
 		BE46F4E91EBC8DE4008A5B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46F4E81EBC8DE4008A5B59 /* main.m */; };
 		BE46F4EC1EBC8DE5008A5B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46F4EB1EBC8DE5008A5B59 /* AppDelegate.m */; };
@@ -45,7 +46,8 @@
 		84062A84B3330B47F3E0CE1F /* Pods-BBSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSampleAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSampleAppTests/Pods-BBSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A57D3AAD010E799AE86019D5 /* libPods-BBSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B712A440A96AE0D4FFA19342 /* Pods-BBSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSampleApp/Pods-BBSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		BE17320D1ECBA75200358B46 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		BE08783B1ECDF3B30042980F /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		BE08783C1ECDF3B30042980F /* main.jsbundle.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle.meta; sourceTree = "<group>"; };
 		BE3F3F251EBC97130036D348 /* RNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
 		BE3F3F261EBC97130036D348 /* RNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
 		BE46F4E41EBC8DE4008A5B59 /* BBSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +126,8 @@
 		BE46F4DB1EBC8DE4008A5B59 = {
 			isa = PBXGroup;
 			children = (
-				BE17320D1ECBA75200358B46 /* main.jsbundle */,
+				BE08783B1ECDF3B30042980F /* main.jsbundle */,
+				BE08783C1ECDF3B30042980F /* main.jsbundle.meta */,
 				BE46F51D1EBC8F4F008A5B59 /* ReactVC */,
 				BE46F4E61EBC8DE4008A5B59 /* BBSampleApp */,
 				BE46F5001EBC8DE5008A5B59 /* BBSampleAppTests */,
@@ -314,10 +317,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE08783E1ECDF3B30042980F /* main.jsbundle.meta in Resources */,
 				BE46F4F71EBC8DE5008A5B59 /* LaunchScreen.storyboard in Resources */,
 				BE46F4F41EBC8DE5008A5B59 /* Assets.xcassets in Resources */,
 				BE46F4F21EBC8DE5008A5B59 /* Main.storyboard in Resources */,
-				BE17320E1ECBA75200358B46 /* main.jsbundle in Resources */,
+				BE08783D1ECDF3B30042980F /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
